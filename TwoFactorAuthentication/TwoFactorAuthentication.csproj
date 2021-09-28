@@ -249,18 +249,13 @@
     <Compile Include="Middleware\TwoFactorEventHandler.cs" />
     <Compile Include="Middleware\TwoFactorBackOfficeUserManager.cs" />
     <Compile Include="Middleware\TwoFactorBackOfficeUserStore.cs" />
-    <Compile Include="Middleware\TwoFactorValidationProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Migrations\" />
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets" Condition="Exists('..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
